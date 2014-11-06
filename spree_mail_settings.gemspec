@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_mail_settings'
-  s.version     = '2.3.0'
+  s.version     = '2.4.0'
   s.summary     = 'Add gem summary here'
   s.description = 'Add (optional) gem description here'
   s.required_ruby_version = '>= 1.9.3'
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  spree_version = '~> 2.3.0'
+  spree_version = '~> 2.4.0.beta'
 
   s.add_dependency 'spree_backend', spree_version
 
